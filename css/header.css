@@ -1,0 +1,26 @@
+.header {
+    width: 100%;
+    height: 70vh; /* Altura ajustable entre 50% y 70% de la altura de la pantalla */
+    background-image: url('../background/wallpaper-with-monkey-and-name.jpg'); /* Reemplaza 'tu-imagen.jpg' por la URL de tu imagen */
+    background-size: cover; /* Ajusta la imagen para que ocupe todo el espacio */
+    background-position: center; /* Centra la imagen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+
+.navbar-custom {
+    position: fixed; /* Fija el navbar en la parte superior */
+    top: 0; /* Asegura que esté al inicio de la página */
+    width: 80%; /* Solo ocupa el 80% del ancho de la pantalla */
+    left: 10%; /* Centra el navbar horizontalmente */
+    z-index: 10; /* Asegura que esté por encima del contenido */
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo semitransparente */
+    color: white;
+    border-radius: 10px; /* Opcional: bordes redondeados */
+}
+
+

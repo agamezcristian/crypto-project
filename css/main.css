@@ -1,0 +1,42 @@
+:root {
+    --theme-color: white;
+    --primary-color: #697a2c;
+    --secondary-color: #f7c331;
+    --third-color: #85cfa7;
+    --text-color-inverse: white;
+    --text-color: black;
+    --navbar-shallow-color: #e5e5e5;
+    --menu-mobile-background-color: #3a4460;
+    --footer-color: #54456b;
+  }
+
+
+
+
+.divider {
+    height: 4px;
+    width: 100%;
+    background-color: black;
+}
+
+body {
+  font-family: 'Permanent Marker', serif;
+}
+
+
+.section-1 {
+  height: 30vh; /* Complementa el header */
+}
+
+.section-3 {
+  height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: 50vh;
+  }
+  .section-1 {
+    height: 50vh;
+  }
+}

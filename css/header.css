@@ -1,6 +1,6 @@
 .header {
     width: 100%;
-    height: 70vh; /* Altura ajustable entre 50% y 70% de la altura de la pantalla */
+    height: 80vh; /* Altura ajustable entre 50% y 70% de la altura de la pantalla */
     background-image: url('../background/wallpaper-with-monkey-and-name.jpg'); /* Reemplaza 'tu-imagen.jpg' por la URL de tu imagen */
     background-size: cover; /* Ajusta la imagen para que ocupe todo el espacio */
     background-position: center; /* Centra la imagen */
@@ -10,6 +10,7 @@
     align-items: center;
     text-align: center;
     color: white;
+    font-family: 'Permanent Marker', serif;
 }
 
 @media (max-width: 768px) { /* Pantallas más pequeñas, como tablets */
@@ -25,11 +26,7 @@
         align-items: center;
         text-align: center;
         color: white;
-    }
-
-    .section-1 {
-        height: 20vh; /* Complementa el header */
-    }
+    }    
 }
   
 @media (max-width: 480px) { /* Pantallas pequeñas, como teléfonos */
@@ -47,9 +44,7 @@
         color: white;
     }
 
-    .section-1 {
-        height: 10vh; /* Complementa el header */
-    }
+    
 }
 
 
@@ -67,4 +62,5 @@
 .btn-navbar {
     background-color: var(--third-color)
 }
+
 

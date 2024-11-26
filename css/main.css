@@ -21,16 +21,14 @@
 
 body {
   font-family: 'Permanent Marker', serif;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 
-.section-1 {
-  height: 30vh; /* Complementa el header */
-}
 
-.section-3 {
-  height: 100vh;
-}
+
+
 
 @media (max-width: 768px) {
   .header {
